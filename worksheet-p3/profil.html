@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game yang Pernah Saya Mainkan</title>
+  </head>
+  <body>
+    <header>
+      <h1>Game yang Pernah Saya Mainkan</h1>
+      <p>Nama: Nazrul Ilham Zatnika</p>
+      <p>NIM: 25523255</p>
+    </header>
+
+    <nav aria-label="Navigasi utama">
+      <ul>
+        <li><a href="#daftar-game">Daftar Game</a></li>
+        <li><a href="#tambah-game">Tambah Game</a></li>
+        <li><a href="#tentang-saya">Tentang Saya</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="daftar-game">
+        <h2>Daftar Game</h2>
+        <table>
+          <caption>Daftar game yang pernah saya mainkan</caption>
+          <thead>
+            <tr>
+              <th scope="col">Nama Game</th>
+              <th scope="col">Genre</th>
+              <th scope="col">Tahun Rilis</th>
+              <th scope="col">Rating</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">eFootball 2026</th>
+              <td>Sepak Bola</td>
+              <td>2025</td>
+              <td>9/10</td>
+            </tr>
+            <tr>
+              <th scope="row">EA Sports FC 25</th>
+              <td>Sepak Bola</td>
+              <td>2024</td>
+              <td>8/10</td>
+            </tr>
+            <tr>
+              <th scope="row">Mobile Legends</th>
+              <td>MOBA</td>
+              <td>2016</td>
+              <td>8/10</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="tambah-game">
+        <h2>Tambah Game</h2>
+        <form action="#" method="post">
+          <div>
+            <label for="nama-game">Nama Game</label><br />
+            <input type="text" id="nama-game" name="nama-game" required />
+          </div>
+
+          <div>
+            <label for="genre-game">Genre</label><br />
+            <input type="text" id="genre-game" name="genre-game" required />
+          </div>
+
+          <div>
+            <label for="rating-game">Rating</label><br />
+            <input
+              type="number"
+              id="rating-game"
+              name="rating-game"
+              min="1"
+              max="10"
+              step="0.1"
+              required
+            />
+          </div>
+
+          <button type="submit">Simpan</button>
+        </form>
+      </section>
+
+      <figure>
+        <img
+          src="game-saya.webp"
+          alt="Gambar game favorit saya, eFootball 2026"
+          width="320"
+          height="180"
+          loading="lazy"
+        />
+        <figcaption>Game favorit saya: eFootball 2026</figcaption>
+      </figure>
+
+      <section id="tentang-saya">
+        <h2>Tentang Saya</h2>
+        <p>Nama: Nazrul Ilham Zatnika</p>
+        <p>NIM: 25523255</p>
+        <p>Game favorit: eFootball 2026</p>
+        <p>
+          Saya adalah seorang pemain game yang menyukai permainan strategi dan
+          olahraga, terutama game sepak bola. Saya sering bermain game untuk
+          bersenang-senang sekaligus melatih konsentrasi dan ketangkasan.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Nazrul Ilham Zatnika - 25523255</p>
+    </footer>
+  </body>
+</html>
