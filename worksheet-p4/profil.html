@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eFootball 2026 - Profil Saya</title>
+    <link rel="stylesheet" href="tokens.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="komponen.css">
+    <link rel="stylesheet" href="tema.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Profil eFootball 2026 Saya</h1>
+        <p>Nama: Nazrul Ilham Zatnika</p>
+        <p>NIM: 25523255</p>
+        <p>Game favorit: eFootball 2026</p>
+    </header>
+
+    <nav aria-label="Navigasi utama">
+        <input class="theme-toggle" type="checkbox" id="theme-toggle" aria-label="Aktifkan tema gelap">
+        <label for="theme-toggle">Tema gelap</label>
+        <ul>
+            <li><a href="#detail-akun">Detail Akun</a></li>
+            <li><a href="#pemain-favorit">Pemain Favorit</a></li>
+            <li><a href="#tambah-pemain">Tambah Pemain</a></li>
+            <li><a href="#tentang-saya">Tentang Saya</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- DETAIL AKUN -->
+        <section id="detail-akun">
+            <h2>Detail Akun eFootball 2026</h2>
+
+            <figure>
+                <img
+                    src="game-saya.webp"
+                    alt="Tampilan tim eFootball 2026 dengan susunan pemain"
+                    width="800"
+                    height="450"
+                    loading="lazy"
+                >
+                <figcaption>
+                    Susunan tim saya di eFootball 2026.
+                </figcaption>
+            </figure>
+
+            <table>
+                <caption>Informasi akun eFootball 2026</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Informasi</th>
+                        <th scope="col">Detail</th>
+                        <th scope="col">Keterangan</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">Game</th>
+                        <td>eFootball 2026</td>
+                        <td>Game sepak bola favorit</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Formasi</th>
+                        <td>4-2-2-2</td>
+                        <td>Formasi utama</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Klub Favorit</th>
+                        <td>Manchester United</td>
+                        <td>Klub yang saya sukai</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Mode Favorit</th>
+                        <td>Dream Team</td>
+                        <td>Mode permainan yang sering dimainkan</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- PEMAIN FAVORIT -->
+        <section id="pemain-favorit">
+            <h2>Pemain Favorit</h2>
+
+            <table>
+                <caption>Pemain favorit saya di eFootball 2026</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Nama Pemain</th>
+                        <th scope="col">Posisi</th>
+                        <th scope="col">Rating</th>
+                        <th scope="col">Alasan Favorit</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">Lionel Messi</th>
+                        <td>AMF</td>
+                        <td>108</td>
+                        <td>Dribbling dan kreativitas</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Kylian Mbappé</th>
+                        <td>CF</td>
+                        <td>105</td>
+                        <td>Kecepatan dan finishing</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Kevin De Bruyne</th>
+                        <td>AMF</td>
+                        <td>105</td>
+                        <td>Umpan dan visi permainan</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- TAMBAH PEMAIN -->
+        <section id="tambah-pemain">
+            <h2>Tambah Pemain Favorit</h2>
+
+            <form>
+
+                <div>
+                    <label for="nama-pemain">Nama Pemain</label><br>
+                    <input
+                        type="text"
+                        id="nama-pemain"
+                        name="nama-pemain"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="posisi-pemain">Posisi</label><br>
+                    <input
+                        type="text"
+                        id="posisi-pemain"
+                        name="posisi-pemain"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="rating-pemain">Rating</label><br>
+                    <input
+                        type="number"
+                        id="rating-pemain"
+                        name="rating-pemain"
+                        min="1"
+                        max="110"
+                        required
+                    >
+                </div>
+
+                <button type="submit">Simpan Pemain</button>
+
+            </form>
+        </section>
+
+        <!-- TENTANG SAYA -->
+        <section id="tentang-saya">
+            <h2>Tentang Saya</h2>
+
+            <p>Nama: Nazrul Ilham Zatnika</p>
+            <p>NIM: 25523255</p>
+            <p>Game favorit: eFootball 2026</p>
+            <p>Formasi favorit: 4-2-2-2</p>
+
+            <p>
+                Saya menyukai eFootball 2026 karena merupakan game sepak bola
+                yang menarik. Saya senang menyusun tim, memilih pemain favorit,
+                dan mencoba berbagai strategi dalam pertandingan.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Nazrul Ilham Zatnika - 25523255</p>
+    </footer>
+
+</body>
+</html>

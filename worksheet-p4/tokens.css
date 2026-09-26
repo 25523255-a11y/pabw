@@ -1,0 +1,63 @@
+:root {
+  /* Primitive tokens */
+  --color-white: #ffffff;
+  --color-slate-50: #f8fafc;
+  --color-slate-100: #eef3ff;
+  --color-slate-200: #dfe7ff;
+  --color-slate-300: #c7d2fe;
+  --color-slate-400: #94a3b8;
+  --color-slate-600: #475569;
+  --color-slate-700: #334155;
+  --color-slate-800: #1e293b;
+  --color-slate-900: #0f172a;
+  --color-blue-500: #2563eb;
+  --color-blue-600: #1d4ed8;
+  --color-red-500: #dc2626;
+  --color-red-100: #fee2e2;
+  --shadow-soft: 0 0.5rem 1.5rem rgba(15, 23, 42, 0.08);
+  --shadow-focus: 0 0 0 0.1875rem color-mix(in srgb, var(--color-focus) 35%, transparent);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 2.5rem;
+  --space-8: 3rem;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+
+  --font-sans: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --font-heading: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: clamp(1.5rem, 2vw, 2rem);
+  --text-2xl: clamp(2rem, 3vw, 2.75rem);
+  --text-3xl: clamp(2.5rem, 4vw, 3.25rem);
+
+  --line-height-tight: 1.25;
+  --line-height-base: 1.6;
+  --line-height-relaxed: 1.75;
+
+  --max-content-width: 72rem;
+
+  /* Semantic tokens */
+  --color-bg: var(--color-white);
+  --color-fg: var(--color-slate-900);
+  --color-surface: var(--color-slate-50);
+  --color-surface-strong: var(--color-slate-100);
+  --color-border: var(--color-slate-200);
+  --color-primary: var(--color-blue-600);
+  --color-primary-strong: var(--color-blue-500);
+  --color-danger: var(--color-red-500);
+  --color-focus: var(--color-blue-500);
+  --color-muted: var(--color-slate-600);
+  --shadow-card: var(--shadow-soft);
+}
